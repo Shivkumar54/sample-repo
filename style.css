@@ -1,0 +1,39 @@
+/* body{
+    background-color: green;
+}
+@media (min-width:768px){
+    body{
+        background-color:blue;
+    }
+}
+@media (min-width:1020px){
+    body{
+        background-color:teal;
+    }
+}
+@media (min-width:1400px){
+    body{
+        background-color:orangered;
+    }
+} */
+body{
+    background-color: black;
+    padding: 200px;
+}
+.parent{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    gap: 15px;
+    flex-direction: column;
+    justify-content: center;
+   
+
+}
+.child{
+    background-color: rgb(9, 253, 21);
+    height: 200px;
+    width: 200px;
+    margin: 50px,50px;
+}
